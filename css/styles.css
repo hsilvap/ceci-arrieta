@@ -452,6 +452,12 @@ p.text-intro {
   background-size: cover;
   height: 685px;
 }
+@media only screen and (max-width: 600px) {
+  .hero {
+    background: url(../img/l4.jpg) no-repeat #f4f5fc;
+    background-size: cover;
+  }
+}
 nav {
   height: 85px;
   margin-top: 30px;
@@ -531,6 +537,11 @@ header ul li a {
   position: relative;
   height: 600px;
 }
+@media only screen and (max-width: 600px) {
+  .corporales-section {
+    height: 400px;
+  }
+}
 .nopadding {
   padding: 0 !important;
   margin: 0 !important;
@@ -554,12 +565,18 @@ header ul li a {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .seat-black {
   background: url(../img/seat-black.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+@media only screen and (max-width: 600px) {
+  .seat-black {
+    display: none;
+  }
 }
 .frame-red {
   background: url(../img/chrome-wheels.jpg) no-repeat center center;
