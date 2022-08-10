@@ -1,1 +1,1 @@
-Static site 
+Static site deployed with netifly
