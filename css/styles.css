@@ -525,6 +525,11 @@ header ul li a {
   height: 600px;
   position: relative;
 }
+@media only screen and (max-width: 600px) {
+  .section-3 {
+    display: none;
+  }
+}
 .section-4 {
   background: url(../img/red-bike.jpg) no-repeat center center;
   -webkit-background-size: cover;
